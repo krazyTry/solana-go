@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.21.0](https://github.com/solana-foundation/solana-go/compare/v1.20.0...v1.21.0) (2026-05-25)
+
+
+### Features
+
+* **rpc:** add NewWithCommitment / NewWithTimeout / NewWithTimeoutAndCommitment ([#436](https://github.com/solana-foundation/solana-go/issues/436)) ([e93ff5e](https://github.com/solana-foundation/solana-go/commit/e93ff5e937733daca5fed01c362961c4c8aead25)), closes [#414](https://github.com/solana-foundation/solana-go/issues/414)
+* **rpc:** forward MinContextSlot in getProgramAccounts and getTokenAccounts ([#431](https://github.com/solana-foundation/solana-go/issues/431)) ([17984a5](https://github.com/solana-foundation/solana-go/commit/17984a55c17ab0fc9f308872a43b737601d6a8da))
+* **rpc:** support EncodingJSON in GetTransaction ([#420](https://github.com/solana-foundation/solana-go/issues/420)) ([b906b70](https://github.com/solana-foundation/solana-go/commit/b906b70527a5dfed358090e27dd7f4a7f12749c3))
+* **wallet:** derive PrivateKey/Wallet from BIP-39 mnemonic ([#429](https://github.com/solana-foundation/solana-go/issues/429)) ([89ef706](https://github.com/solana-foundation/solana-go/commit/89ef706472ad49a9622a058497852711f7bd3771))
+* **ws:** support dataSlice in AccountSubscribe ([#433](https://github.com/solana-foundation/solana-go/issues/433)) ([fb31fb1](https://github.com/solana-foundation/solana-go/commit/fb31fb13b42141bb6067c7447b8618e7e848b97b))
+* **ws:** support dataSlice in ProgramSubscribe ([#434](https://github.com/solana-foundation/solana-go/issues/434)) ([950b110](https://github.com/solana-foundation/solana-go/commit/950b110b8f369de33143705cfba0b8da7d240d6f))
+* **ws:** support enableReceivedNotification in SignatureSubscribe ([#432](https://github.com/solana-foundation/solana-go/issues/432)) ([810f171](https://github.com/solana-foundation/solana-go/commit/810f171ff933c1508e9526a2a536a287cac7c386))
+
+
+### Bug Fixes
+
+* **rpc:** support EncodingJSON in GetBlockWithOpts ([#419](https://github.com/solana-foundation/solana-go/issues/419)) ([eee363a](https://github.com/solana-foundation/solana-go/commit/eee363a738642efc6006cdce863689d49afc712c))
+* **ws:** reject EncodingJSONParsed in BlockSubscribe ([#426](https://github.com/solana-foundation/solana-go/issues/426)) ([bf130a2](https://github.com/solana-foundation/solana-go/commit/bf130a2a69b0a3f0462f8119c6b03dd1e9282cf8))
+* **ws:** use spec "showRewards" key in blockSubscribe params ([#430](https://github.com/solana-foundation/solana-go/issues/430)) ([6969f12](https://github.com/solana-foundation/solana-go/commit/6969f121e5700803befeb089e9dc4bbecfdb5f89))
+* **ws:** use uint64 for params.Subscription in incoming notifications ([#427](https://github.com/solana-foundation/solana-go/issues/427)) ([427de1a](https://github.com/solana-foundation/solana-go/commit/427de1a9f438b658dd649ba6f13ba81558192ee1))
+
 ## [1.20.0](https://github.com/solana-foundation/solana-go/compare/v1.19.0...v1.20.0) (2026-05-08)
 
 
