@@ -17,7 +17,7 @@ package ws
 import (
 	"context"
 
-	"github.com/solana-foundation/solana-go/v2"
+	"github.com/krazyTry/solana-go/v2"
 )
 
 // VoteResult matches Agave's RpcVote.

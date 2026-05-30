@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/solana-foundation/solana-go/v2"
-	"github.com/solana-foundation/solana-go/v2/programs/system"
-	"github.com/solana-foundation/solana-go/v2/rpc"
+	"github.com/krazyTry/solana-go/v2"
+	"github.com/krazyTry/solana-go/v2/programs/system"
+	"github.com/krazyTry/solana-go/v2/rpc"
 )
 
 // SendRawTransaction takes already-serialized, fully-signed transaction

@@ -1,4 +1,4 @@
-module github.com/solana-foundation/solana-go/v2
+module github.com/krazyTry/solana-go/v2
 
 go 1.24.0
 

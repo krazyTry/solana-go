@@ -7,8 +7,8 @@ import (
 
 	bin "github.com/gagliardetto/binary"
 	"github.com/gagliardetto/treeout"
-	"github.com/solana-foundation/solana-go/v2"
-	"github.com/solana-foundation/solana-go/v2/text/format"
+	"github.com/krazyTry/solana-go/v2"
+	"github.com/krazyTry/solana-go/v2/text/format"
 )
 
 // AuthorizeChecked is the checked variant of Authorize.

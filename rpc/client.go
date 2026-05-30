@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/klauspost/compress/gzhttp"
-	"github.com/solana-foundation/solana-go/v2/rpc/jsonrpc"
+	"github.com/krazyTry/solana-go/v2/rpc/jsonrpc"
 )
 
 var (

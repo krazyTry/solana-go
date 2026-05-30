@@ -20,8 +20,8 @@ import (
 
 	ag_binary "github.com/gagliardetto/binary"
 	ag_treeout "github.com/gagliardetto/treeout"
-	ag_solanago "github.com/solana-foundation/solana-go/v2"
-	ag_format "github.com/solana-foundation/solana-go/v2/text/format"
+	ag_solanago "github.com/krazyTry/solana-go/v2"
+	ag_format "github.com/krazyTry/solana-go/v2/text/format"
 )
 
 // Thaw a Frozen account using the Mint's freeze_authority (if set).

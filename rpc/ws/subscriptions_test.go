@@ -18,8 +18,8 @@ import (
 	stdjson "encoding/json"
 	"testing"
 
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
+	"github.com/krazyTry/solana-go/v2"
+	"github.com/krazyTry/solana-go/v2/rpc"
 	"github.com/stretchr/testify/require"
 )
 
