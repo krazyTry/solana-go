@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	bin "github.com/gagliardetto/binary"
-	solana "github.com/gagliardetto/solana-go"
-	format "github.com/gagliardetto/solana-go/text/format"
+	solana "github.com/krazyTry/solana-go"
+	format "github.com/krazyTry/solana-go/text/format"
 	treeout "github.com/gagliardetto/treeout"
 )
 

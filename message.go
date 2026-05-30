@@ -25,7 +25,7 @@ import (
 	"github.com/gagliardetto/treeout"
 	gojson "github.com/goccy/go-json"
 
-	"github.com/gagliardetto/solana-go/text"
+	"github.com/krazyTry/solana-go/text"
 )
 
 type MessageAddressTableLookupSlice []MessageAddressTableLookup

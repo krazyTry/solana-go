@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/gagliardetto/solana-go/rpc/ws"
+	"github.com/krazyTry/solana-go"
+	"github.com/krazyTry/solana-go/rpc"
+	"github.com/krazyTry/solana-go/rpc/ws"
 )
 
 func ExampleClient_AccountSubscribe() {

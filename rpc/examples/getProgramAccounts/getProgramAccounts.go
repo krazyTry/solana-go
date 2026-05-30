@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
+	"github.com/krazyTry/solana-go"
+	"github.com/krazyTry/solana-go/rpc"
 )
 
 // getProgramAccounts returns every account owned by a program. Public

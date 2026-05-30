@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/krazyTry/solana-go"
 )
 
 var isTokenMintBenchSink bool

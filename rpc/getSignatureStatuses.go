@@ -17,7 +17,7 @@ package rpc
 import (
 	"context"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/krazyTry/solana-go"
 )
 
 // GetSignatureStatuses Returns the statuses of a list of signatures.

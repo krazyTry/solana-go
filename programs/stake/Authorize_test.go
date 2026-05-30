@@ -3,7 +3,7 @@ package stake
 import (
 	"testing"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/krazyTry/solana-go"
 	"github.com/stretchr/testify/require"
 )
 

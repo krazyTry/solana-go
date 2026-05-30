@@ -3,7 +3,7 @@ package stake
 import (
 	"encoding/binary"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/krazyTry/solana-go"
 )
 
 func pubkeyOf(v byte) solana.PublicKey {
