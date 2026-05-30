@@ -9,7 +9,7 @@ import (
 	"golang.org/x/time/rate"
 )
 
-type OptionFuncs []func(*RPCClientOpts)
+type OptionFuncs func(*RPCClientOpts)
 
 type RPCClientOpts struct {
 	*jsonrpc.RPCClientOpts
@@ -28,7 +28,7 @@ type RPCClientOpts struct {
 // client := rpc.New2("https://api.mainnet-beta.solana.com")
 // client := rpc.New2("https://api.mainnet-beta.solana.com", rpc.WithHTTPClient(http.DefaultClient))
 // client := rpc.New2("https://api.mainnet-beta.solana.com", rpc.WithHTTPClient(http.DefaultClient), rpc.WithLimiter(rate.Every(time.Second), 1))
-func New2(rpcEndpoint string, fns OptionFuncs) *Client2 {
+func New2(rpcEndpoint string, fns ...OptionFuncs) *Client2 {
 	opts := &RPCClientOpts{
 		RPCClientOpts: &jsonrpc.RPCClientOpts{
 			HTTPClient: newHTTP(),
