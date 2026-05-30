@@ -17,7 +17,7 @@ package rpc
 import (
 	"testing"
 
-	"github.com/krazyTry/solana-go"
+	"github.com/gagliardetto/solana-go"
 	stdjson "github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 )

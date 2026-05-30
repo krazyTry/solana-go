@@ -21,7 +21,7 @@ import (
 
 	bin "github.com/gagliardetto/binary"
 	ag_gofuzz "github.com/gagliardetto/gofuzz"
-	"github.com/krazyTry/solana-go"
+	"github.com/gagliardetto/solana-go"
 	ag_require "github.com/stretchr/testify/require"
 )
 

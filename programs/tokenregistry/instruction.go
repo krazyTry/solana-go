@@ -22,10 +22,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/krazyTry/solana-go/text"
+	"github.com/gagliardetto/solana-go/text"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/krazyTry/solana-go"
+	"github.com/gagliardetto/solana-go"
 )
 
 func init() {

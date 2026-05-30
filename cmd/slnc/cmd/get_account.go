@@ -21,7 +21,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/krazyTry/solana-go"
+	"github.com/gagliardetto/solana-go"
 	json "github.com/goccy/go-json"
 	"github.com/spf13/cobra"
 )

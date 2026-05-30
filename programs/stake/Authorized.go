@@ -18,7 +18,7 @@ import (
 	"errors"
 
 	bin "github.com/gagliardetto/binary"
-	ag_solanago "github.com/krazyTry/solana-go"
+	ag_solanago "github.com/gagliardetto/solana-go"
 )
 
 type Authorized struct {

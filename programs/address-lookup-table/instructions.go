@@ -7,8 +7,8 @@ import (
 
 	spew "github.com/davecgh/go-spew/spew"
 	bin "github.com/gagliardetto/binary"
-	solana "github.com/krazyTry/solana-go"
-	text "github.com/krazyTry/solana-go/text"
+	solana "github.com/gagliardetto/solana-go"
+	text "github.com/gagliardetto/solana-go/text"
 	treeout "github.com/gagliardetto/treeout"
 )
 

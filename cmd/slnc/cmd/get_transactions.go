@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/krazyTry/solana-go"
-	_ "github.com/krazyTry/solana-go/programs/system"
-	_ "github.com/krazyTry/solana-go/programs/token"
-	_ "github.com/krazyTry/solana-go/programs/tokenregistry"
-	"github.com/krazyTry/solana-go/rpc"
-	"github.com/krazyTry/solana-go/text"
+	"github.com/gagliardetto/solana-go"
+	_ "github.com/gagliardetto/solana-go/programs/system"
+	_ "github.com/gagliardetto/solana-go/programs/token"
+	_ "github.com/gagliardetto/solana-go/programs/tokenregistry"
+	"github.com/gagliardetto/solana-go/rpc"
+	"github.com/gagliardetto/solana-go/text"
 	"github.com/spf13/cobra"
 )
 

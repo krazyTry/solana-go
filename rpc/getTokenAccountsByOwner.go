@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/krazyTry/solana-go"
+	"github.com/gagliardetto/solana-go"
 )
 
 // GetTokenAccountsByOwner returns all SPL Token accounts by token owner.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/krazyTry/solana-go/rpc"
+	"github.com/gagliardetto/solana-go/rpc"
 )
 
 const MINT_SIZE = 82

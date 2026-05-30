@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/krazyTry/solana-go"
+	"github.com/gagliardetto/solana-go"
 )
 
 // Constants from the official vote program.

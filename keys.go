@@ -28,7 +28,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/krazyTry/solana-go/base58"
+	"github.com/gagliardetto/solana-go/base58"
 	"github.com/oasisprotocol/curve25519-voi/curve"
 	voied25519 "github.com/oasisprotocol/curve25519-voi/primitives/ed25519"
 	"go.mongodb.org/mongo-driver/v2/bson"

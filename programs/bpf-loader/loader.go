@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/krazyTry/solana-go"
-	"github.com/krazyTry/solana-go/programs/system"
-	"github.com/krazyTry/solana-go/rpc"
+	"github.com/gagliardetto/solana-go"
+	"github.com/gagliardetto/solana-go/programs/system"
+	"github.com/gagliardetto/solana-go/rpc"
 )
 
 const (

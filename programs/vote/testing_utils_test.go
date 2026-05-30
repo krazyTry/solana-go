@@ -3,7 +3,7 @@ package vote
 import (
 	"encoding/binary"
 
-	"github.com/krazyTry/solana-go"
+	"github.com/gagliardetto/solana-go"
 )
 
 func pubkeyOf(v byte) solana.PublicKey {

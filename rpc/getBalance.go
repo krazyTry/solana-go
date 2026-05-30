@@ -19,7 +19,7 @@ package rpc
 import (
 	"context"
 
-	"github.com/krazyTry/solana-go"
+	"github.com/gagliardetto/solana-go"
 )
 
 // GetBalance returns the balance of the account of provided publicKey.
